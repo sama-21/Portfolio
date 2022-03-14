@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+::-webkit-scrollbar-track {
+    background: #ddffc9; 
+  }
+::-webkit-scrollbar-thumb {
+    background: #5f9242; 
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #41632d; 
+  } 
+.bi-envelope-fill:hover {
+    transition: .3s all;
+    color: #DD4B39;
+}
+.bi-linkedin:hover {
+    transition: .3s all;
+    color: #0077B5;
+}
+.bi-facebook:hover {
+    transition: .3s all;
+    color: #00AFF0;
+}
+.bi-github:hover {
+    transition: .3s all;
+    color: #34465D;
+}
+.bi-twitter:hover {
+    transition: .3s all;
+    color: #55ACEE;
+}
+.nav-item:hover {
+    transition: .3s all;
+    transform: translateY(-5px);
+}
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: .7rem;
+    }
+}
